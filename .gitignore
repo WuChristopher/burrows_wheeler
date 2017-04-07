@@ -24,7 +24,6 @@
 hs_err_pid*
 
 .DS_Store
-.gitignore
 .idea/dbnavigator.xml
 .idea/kotlinc.xml
 .idea/workspace.xml

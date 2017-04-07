@@ -34,6 +34,11 @@ public class CircularSuffixArray {
         sort(s, a, 0, a.length - 1, 0);
     }
 
+    /**
+     * Use 3-way String quick-sort similar algorithm to sort the suffix array, because the
+     * suffix array only contains the index of the starting char of each suffix string,
+     * the original string should be passed in for addition information.
+     */
     private static void sort(String s, int[] a, int lo, int hi, int d) {
         if (hi <= lo) return;
         int lt = lo, gt = hi;
